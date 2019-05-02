@@ -1,2 +1,15 @@
-eu quero te possuir
-
+git
+git clone [LINK]
+ls (ver itens da pasta)
+cd /TP1---Janaina-e-Joao-Felipe
+git status
+git add
+git commit -m "texto modificado"
+git commit                              / - mensagem:               / ctrl-O + ctrl X
+git push
+git pull + push [Utilizar quando dois usuários estão mexendo no mesmo repositório em diferentes computadores]
+git show [Mostra versão anterior]
+git diff [Mostra a diferença entre dois arquivos]
+git checkout HEAD [nome do arquivo] - RESTAURA VERSÃO ANTERIOR
+git log - graph - all - decorate [MOSTRA HISTÓRICO DAS MUDANÇAS QUE VOCÊ COMMITOU]
+git reset - hard (REVERTE MODIFICAÇÕES LOUCAS QYE VOCÊ TENHA FEITO, DE VOLTA AO ULTIMO COMMIT)
