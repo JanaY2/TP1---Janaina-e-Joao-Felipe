@@ -12,4 +12,4 @@ git show [Mostra versão anterior]
 git diff [Mostra a diferença entre dois arquivos]
 git checkout HEAD [nome do arquivo] - RESTAURA VERSÃO ANTERIOR
 git log - graph - all - decorate [MOSTRA HISTÓRICO DAS MUDANÇAS QUE VOCÊ COMMITOU]
-git reset - hard (REVERTE MODIFICAÇÕES LOUCAS QYE VOCÊ TENHA FEITO, DE VOLTA AO ULTIMO COMMIT)
+git reset - hard (REVERTE MODIFICAÇÕES LOUCAS QUE VOCÊ TENHA FEITO, DE VOLTA AO ULTIMO COMMIT)
