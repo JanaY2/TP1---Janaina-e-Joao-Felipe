@@ -10,16 +10,17 @@ package gato;
  * @author aluno
  */
 public class Parque {
-    public static int main(String[] args);
-     Gato duin=new Gato();
-      duin.none="Bola";
-      duin.Gato();
+    public static int main(String[] args){
+     Gato cat=new Gato("j");
+      cat.name="Bola";
+      cat.miar();
      Gato gatinho=new Gato("duin");
      gatinho.idade=2;
      gatinho.macho=true;
-     gatinho.Gato();
-     duin.registro=gatinho;
+     gatinho.miar();
+     cat.registro=gatinho;
      return 0;
+}
 }
      
              
