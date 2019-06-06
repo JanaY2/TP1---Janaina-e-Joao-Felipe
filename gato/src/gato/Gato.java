@@ -1,21 +1,29 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package gato;
 
-/**
- *
- * @author aluno
- */
 public class Gato {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    boolem macho;
+    String name;
+    int idade;
+    Gato raça;
+    int registro;
+
+    public Gato(String n) {
+        this.name = n;
     }
     
+    
+    public Gato(){
+        if (idade > 2) {
+            System.out.print("miii");
+        } else {
+            System.out.print("meown");
+        }
+    }
+
+    public static void main(String[] args) {
+      
+    }
+
 }
