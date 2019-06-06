@@ -6,7 +6,6 @@ public class Gato {
     boolem macho;
     String name;
     int idade;
-    Gato raça;
     int registro;
 
     public Gato(String n) {
@@ -14,7 +13,7 @@ public class Gato {
     }
     
     
-    public Gato(){
+    public void miar(){
         if (idade > 2) {
             System.out.print("miii");
         } else {
@@ -26,4 +25,10 @@ public class Gato {
       
     }
 
+    private static class boolem {
+
+        public boolem() {
+        }
+    }
+    
 }
